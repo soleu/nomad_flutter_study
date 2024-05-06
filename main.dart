@@ -25,4 +25,36 @@ void main(){
     const API = '1212'; // compile- time에 알고 있는 값이여야 함
     // const API = fetchApi(); // 불가, 사용자 입력값도 불가(앱스토어에 올리기 전부터 알고있는 값이라고 생각하기)
 
+
+    num // int or double 
+    // list
+    var giveMeFive true;
+    var numbers = [1,2,3,4];
+    List<Int> nums = [1,2,3,4
+    , if(giveMeFive) 5 // true 라면 5도 add
+    ];
+
+    // String
+    var greeting = 'Hello $name, ${age+2}'; // 문자열에 변수 넣는 법
+
+    // collection for
+    var oldFriends = ['sol', 'pine'];
+    var newFriends = ['lee', 'jane',
+    // 이런 방식으로 추가할 수 있음
+    for (var friend in oldFriends) " 🍀 $friend",
+    ];
+    print (newFriends);
+
+
+    // maps
+    var player = {
+        'name' : 'sol',
+        'xp' : 19.00,
+        'superpower' : false,
+        };
+
+    // sets
+    Set<int> numbers2 = {1,2,3,4}; // list : []
+    numbers2.add(1);
+
 }
